@@ -12,9 +12,9 @@
 	<repositories>
 		<!-- oschina的maven仓库 -->
 		<repository>
-			<id>oschinaRepository</id>
+			<id>repository</id>
 			<name>local private nexus</name>
-			<url>http://maven.oschina.net/content/groups/public/</url>
+			<url>http://mvnrepository.com/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -27,9 +27,9 @@
 	<pluginRepositories>
 		<!-- oschina的maven plugin仓库 -->
 		<pluginRepository>
-			<id>oschinaPluginRepository</id>
+			<id>pluginRepository</id>
 			<name>local private nexus</name>
-			<url>http://maven.oschina.net/content/groups/public/</url>
+			<url>http://mvnrepository.com/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -112,7 +112,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>cglib-nodep</groupId>
+			<groupId>cglib</groupId>
 			<artifactId>cglib-nodep</artifactId>
 			<version>2.1_3</version>
 		</dependency>
