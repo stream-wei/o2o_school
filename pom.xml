@@ -12,7 +12,7 @@
 	<repositories>
 		<!-- oschina的maven仓库 -->
 		<repository>
-			<id>oschinaRepository</id>
+			<id>repository</id>
 			<name>local private nexus</name>
 			<url>http://mvnrepository.com/</url>
 			<releases>
@@ -27,7 +27,7 @@
 	<pluginRepositories>
 		<!-- oschina的maven plugin仓库 -->
 		<pluginRepository>
-			<id>oschinaPluginRepository</id>
+			<id>pluginRepository</id>
 			<name>local private nexus</name>
 			<url>http://mvnrepository.com/</url>
 			<releases>
