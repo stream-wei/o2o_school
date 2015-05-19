@@ -8,7 +8,7 @@
 	<name>o2o_school_2 Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
-	<!-- 指定Maven仓 库 -->
+	<!-- 指定Maven仓库 -->
 	<repositories>
 		<!-- oschina的maven仓库 -->
 		<repository>
