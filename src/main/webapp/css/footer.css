@@ -1,0 +1,29 @@
+/*µ×²¿ start*/
+.univ-foot {
+	height: 150px;
+	min-width: 1200px;
+	width: 100%;
+	overflow: hidden;
+	border-top: 2px solid #b61d1d;
+	margin-top: 0px;
+	background: #000;
+}
+
+.univ-foot .univ-foot-cont {
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.univ-foot-cont p {
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	color: #9c948e;
+}
+
+.univ-foot-cont p a {
+	margin-right: 16px;
+}
+/*endµ×²¿ */

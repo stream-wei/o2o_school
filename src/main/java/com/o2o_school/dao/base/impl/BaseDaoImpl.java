@@ -70,7 +70,7 @@ public class BaseDaoImpl<T> implements BaseDao<T>{
 	
 	@Override
 	public List<T> queryForList(String sql,Class<T> clazz ,Object... params) {
-		List<T> resultList = jdbcTemplate.query(sql, ParameterizedBeanPropertyRowMapper.newInstance(clazz));
+		List<T> resultList = jdbcTemplate.query(sql, params, ParameterizedBeanPropertyRowMapper.newInstance(clazz));
 		return resultList;
 	}
 	

@@ -11,7 +11,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.o2o_school.dao.base.BaseDao;
-import com.o2o_school.pojo.category.CategoryParent;
+import com.o2o_school.entity.CategoryParent;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath:o2o_school.xml")

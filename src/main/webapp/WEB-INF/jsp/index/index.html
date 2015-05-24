@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>高校跳蚤平台</title>
+	<meta chartset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="keywords" content="高校电子商务,跳蚤平台">
+	
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+	<script type="text/javascript" src="" ></script>
+
+	<style type="text/css">
+
+	/*公共css  start*/
+	*{margin:0;padding:0;}
+	
+	body, button, input, select, textarea,a{
+		font:12px "宋体","Arial Narrow",HELVETICA,"宋体";
+	}
+	/*end  公共css*/
+
+
+
+	/*导航头部css  start*/
+	#head{
+		height:90px;
+		margin:0 auto;
+		background:#7e40bd;
+	}
+
+	#head .head_con{
+		margin-left:450px;
+		color:#ffd0c0;
+		position:absolute;
+	}
+	#head .head_con .logo_register{
+		margin-left: 377px;
+		padding-top:5px;
+		width:240px;
+		height:25px;
+		line-height:25px;
+	}
+
+	#head .head_con .logo_register .t_logo{
+		color:#fff;
+	}
+	#head .head_con .logo_register a:hover{
+		text-decoration:underline;
+		cursor:pointer;
+	}
+
+	#head .head_con .menu_list {
+		height:25px;
+		width:300px;
+		margin-left:621px;
+		margin-top:-25px;
+	}
+	#head .head_con .menu_list .u_menu li{
+		height:25px;
+		width:63px;
+		line-height:25px;
+		list-style:none;
+		position:relative;
+		cursor:pointer;
+		float:left;
+	}
+
+	#head .head_con .menu_list .u_menu li:hover{
+		text-decoration:underline;
+		cursor:pointer;
+	}
+
+	#head .head_con .menu_list .u_menu  .iconfont{	
+		font-size:16px;
+		color:#c40000;
+		cursor:pointer;
+	}
+	#head .head_con .s_search {
+		height:28px;
+		width:400px;
+		margin-left:427px;
+		margin-top:10px;
+		
+	}
+	#head .head_con .s_search .f_input{
+		width:300px;
+		height:28px;
+		line-height:28px;
+		padding-left:5px;
+		border:none;
+		font-weight:bold;
+		border-radius:3px 0 0 3px;
+	}
+
+	#head .head_con .s_search .f_btn{
+		height:30px;
+		width:65px;
+		line-height:28px;
+		font-weight:bold;
+		color:#fff;
+		text-align:center;
+		border-radius:0 3px 3px 0;;
+		border:none;
+		background:#333;
+	}
+	#head .head_con .s_search .f_btn:hover{
+		background:#666;
+		cursor:pointer;
+	}
+
+	/*end 导航头部css*/
+
+
+
+
+/*学校banner start*/
+.b_banner{
+	margin:0 auto;
+	height:100px;
+	border-bottom:2px solid #b61d1d;
+}
+
+.b_banner img{
+	height:100px;
+}
+/*end学校banner*/
+
+
+
+/*分类 start*/
+.store_cate_slide{
+    margin:10px auto;
+    overflow: hidden;
+    width: 100%;
+	min-width:1200px;
+}
+
+
+.store_cate_slide .store_cate h3 a {
+	color:Black;
+	font-weight:bold;
+	text-decoration:none;
+
+}
+
+.store_cate_slide .store_cate h3 a:hover{
+	color: #ff5000;
+	text-decoration:underline;
+}
+
+
+.store_cate {
+    float: left;
+    height: 390px;
+    overflow: hidden;
+    width: 300px;
+}
+
+
+
+.store_cate ul{
+	background: #fff none repeat scroll 0 0;
+    border: 1px solid #e6e6e6;
+    height: 388px;
+    overflow: hidden;
+    position: relative;
+	margin-left:50px;
+    width: 238px;
+	
+}
+
+.store_cate ul li {
+    padding: 6px 15px;
+}
+
+.store_cate a:hover{
+	color: #ff5000;
+	text-decoration:underline;
+	
+}
+
+
+.store_cate p a {
+text-decoration:none;
+    color: #848484;
+    margin-right: 6px;
+}
+
+.store_cate p {
+    height: 25px;
+    line-height: 22px;
+    overflow: hidden;
+    padding-top: 6px;
+}
+
+.store_cate ul .even {
+    background: #f1f1f1;
+}
+
+/*end 分类*/
+
+
+
+/*大banner start*/
+.big_banner{
+	float:left;
+    height: 390px;
+    overflow: hidden;
+    position: relative;
+    width: 936px;
+}
+/*end大banner*/
+
+
+/*商品分类 start*/
+.store_cate_slide  ,.store_box{
+	margin:0 auto;
+	overflow:hidden;
+	width: 100%;
+	min-width:1200px;
+	margin-top:10px;
+}
+/*end 商品分类*/
+
+
+/*广告位 start*/
+.Advertising_position{
+	overflow: hidden;
+    width: 100%;
+	margin-left: 41px;
+}
+
+.Advertising_position  .Advertising_detail  {
+    border-bottom: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    height: 240px;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 100%;
+	min-width:1200px;
+}
+
+
+.Advertising_position  .Advertising_detail  li{
+    border-right: 1px solid #e6e6e6;
+    display: inline;
+    float: left;
+    height: 240px;
+    overflow: hidden;
+    padding: 0 10px;
+    width: 180px;
+}
+
+/*end 广告位*/
+
+
+/*产品分类 start*/
+.store_classify1 {
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%;
+	min-width:1200px;
+	margin-left:41px;
+}
+
+
+.store_classify1 .hd {
+    overflow: hidden;
+    width: 100%;
+	min-width:1200px;
+}
+
+
+.store_classify1 .hd h2.bg1 {
+    background: #bf0067;
+}
+.store_classify1 .hd h2 {
+    background-color: #09796d;
+    color: white;
+    float: left;
+    font-family: Microsoft YaHei;
+    font-size: 16px;
+    font-weight: normal;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    text-align: center;
+    width: 110px;
+}
+
+.store_classify1 .hd a {
+    color: white;
+}
+.store_classify1 .hd .class_box{
+	border-bottom: 3px solid #5a5a5a;
+	  margin-top: 32px;
+}
+
+.store_classify1 .bd {
+    border-bottom: 1px solid #e6e6e6;
+    height: 390px;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 100%;
+	min-width:1200px;
+}
+
+
+.store_classify1 .bd .goods_box_l {
+    float: left;
+    height: 390px;
+    overflow: hidden;
+    padding-right: 10px;
+    width: 190px;
+}
+
+
+.store_classify1 .bd .goods_box_r {
+    float: left;
+    height: 390px;
+    overflow: hidden;
+    position: relative;
+    width: 990px;
+}
+
+.store_classify1 .bd .goods_box_r li {
+    display: inline;
+    float: left;
+    height: 190px;
+    margin: 0 0 5px 8px;
+    overflow: hidden;
+    position: relative;
+    width: 190px;
+}
+
+
+.store_classify1 .bd .goods_box_r li a {
+    display: block;
+    height: 190px;
+    overflow: hidden;
+    width: 190px;
+}
+
+.store_classify1 .goods_box_r .statis {
+    bottom: 44px;
+    display: none;
+}
+
+.store_classify1 .goods_box_r .statis font {
+    color: #c4918c;
+}
+
+
+.store_classify1 .goods_box_r .statis span {
+    color: #568396;
+}
+
+
+
+.store_classify1 .goods_box_r .name {
+    bottom: 22px;
+}
+.store_classify1 .goods_box_r .name, .class_goods_box .goods_box_r .price, .class_goods_box .goods_box_r .statis {
+    background-color: white;
+    color: #666;
+    height: 22px;
+    left: 0;
+    line-height: 22px;
+    opacity: 0.9;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 191px;
+}
+
+
+
+.store_classify1 .goods_box_r .price {
+    bottom: 0;
+}
+.store_classify1 .goods_box_r .name, .class_goods_box .goods_box_r .price, .class_goods_box .goods_box_r .statis {
+    background-color: white;
+    color: #666;
+    height: 22px;
+    left: 0;
+    line-height: 22px;
+    opacity: 0.9;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 191px;
+}
+
+
+.store_classify1 .goods_box_r .price strong, .class_goods_box .goods_box_r .price span {
+    color: #c00;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*产品分类 start*/
+
+
+
+/*底部 start*/
+	.univ-foot{height:150px;min-width: 1200px; width:100%; overflow: hidden; border-top:2px solid #b61d1d; margin-top:0px;background:#000;}
+    .univ-foot .univ-foot-cont{width:1200px; margin:0 auto; text-align:center; padding:15px 0;}
+    .univ-foot-cont p{ height:22px; line-height:22px; font-size:12px; color:#9c948e;}
+    .univ-foot-cont p a{margin-right:16px;}
+/*end底部 */
+</style>
+
+
+	</head>
+	<body>
+	<!--导航start-->
+		<div id="head">
+			<div class="head_con">
+				<p class="logo_register">
+					<label> Hi,欢迎来到高校跳蚤平台</label>
+					<a class="t_logo">请登录</a>
+					<a>免费注册</a>
+				</p>
+				<div class="menu_list">
+					<ul class="u_menu">
+						<li><span class="iconfont">&#xe601;</span> 收藏夹</li>
+						<li ><span class="iconfont">&#xe646;</span> 购物车</li>
+						<li >加盟商户</li>
+					</ul>
+				</div>
+				<div class="s_search"> 
+					<form>
+						<input class="f_input" type="text"  value="搜索商品" /><input class="f_btn" value="搜索" type="button" />
+					</form>
+				</div>	
+			</div>	  
+		</div>
+	<!--end导航-->
+
+
+	<!--学校banner start-->
+	<div class="b_banner">
+		<img src="images/school.png" alt="xuexiao"/>
+	</div>
+	<!--end 学校banner-->
+
+	
+	<div class="store_cate_slide">
+		<!--分类 start-->
+		<div class="store_cate">
+			<ul>
+				<li>
+					<h3>
+					<a target="_blank" href=""> 零食欢乐惠 </a>
+					</h3>
+					<p>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13743">饼干</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13744">糖果</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13742">干果</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13741">肉干</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13740">瓜子</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13739">花生</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13745">豆类</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13746">薯片</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13747">果冻</a>
+					</p>
+				</li>
+				<li class="even">
+					<h3>
+					<a target="_blank" href=""> 零食欢乐惠 </a>
+					</h3>
+					<p>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13743">饼干</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13744">糖果</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13742">干果</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13741">肉干</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13740">瓜子</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13739">花生</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13745">豆类</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13746">薯片</a>
+						<a target="_blank" href="index.php?app=store&id=43584&act=goods&cate=13747">果冻</a>
+					</p>
+				</li>
+				<li>
+					<h3>
+					<a target="_blank" href=""> 零食欢乐惠 </a>
+					</h3>
+					<p>
+						<a target="_blank" href="">饼干</a>
+						<a target="_blank" href="">糖果</a>
+						<a target="_blank" href="">干果</a>
+						<a target="_blank" href="">肉干</a>
+						<a target="_blank" href="">花生</a>
+						<a target="_blank" href="">豆类</a>
+						<a target="_blank" href="">薯片</a>
+						<a target="_blank" href="">果冻</a>
+					</p>
+				</li>
+				<li class="even">
+					<h3>
+					<a target="_blank" href=""> 零食欢乐惠 </a>
+					</h3>
+					<p>
+						<a target="_blank" href="">饼干</a>
+						<a target="_blank" href="">糖果</a>
+						<a target="_blank" href="">干果</a>
+						<a target="_blank" href="">肉干</a>
+						<a target="_blank" href="">花生</a>
+						<a target="_blank" href="">豆类</a>
+						<a target="_blank" href="">薯片</a>
+						<a target="_blank" href="">果冻</a>
+					</p>
+				</li>
+			</ul>
+		</div>
+		<!--end 分类-->
+		<!--大banner start-->
+		<div class="big_banner">
+			<img src="images/7.jpg" alt="banner" width="936" height="390"/>
+		</div>
+		<!--end 大banner -->
+	</div>
+
+	<!--商品列表 start-->
+	<div class="store_box">
+		<!--广告位 start-->
+		<div class="Advertising_position">
+			<ul class="Advertising_detail">
+				<li>
+				<a title="school" href="#" target="_blank">
+				<img height="240" width="180" src="images/1.jpg">
+				</a>
+				</li>
+				
+				<li>
+				<a title="school" href="#" target="_blank">
+				<img height="240" width="180" src="images/2.jpg">
+				</a>
+				</li>
+				
+				<li>
+				<a title="school" href="#" target="_blank">
+				<img height="240" width="180" src="images/3.jpg">
+				</a>
+				</li>
+				
+				<li>
+				<a title="school" href="#" target="_blank">
+				<img height="240" width="180" src="images/4.jpg">
+				</a>
+				</li>
+				
+				<li>
+				<a title="school" href="#" target="_blank">
+				<img height="240" width="180" src="images/5.jpg">
+				</a>
+				</li>
+
+				<li>
+				<a title="school" href="#" target="_blank">
+				<img height="240" width="180" src="images/6.jpg">
+				</a>
+				</li>
+
+			</ul>
+		</div>
+		<!--end 广告位-->
+
+		<!--电子类产品 start-->
+		<div class="store_classify1">
+			<div class="hd">
+				<h2 class="bg1">
+				<a target="_blank" href="">衣服</a>
+				</h2>
+				<div class="class_box"></div>
+			</div>
+
+		<div class="bd">
+		<div class="goods_box_l">
+		<a target="_blank" href="">
+		<img height="390" width="190" src="images/9.jpg" title="school">
+		</a>
+		</div>
+		<div class="goods_box_r">
+			<ul>
+				<li>
+					<a target="_blank" href="#">
+					<img height="190" width="190" src="images/16.jpg">
+					<p class="statis" style="display: none;">
+					已售:
+					<font>0</font>
+					件 |
+					<span>评论:0 </span>
+					</p>
+					<p class="name"> 跳蚤</p>
+					<p class="price">
+					<strong>¥</strong>
+					<span>0.50</span>
+					/
+					<del>0.60</del>
+					</p>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="#">
+					<img height="190" width="190" src="images/10.jpg">
+					<p class="statis" style="display: none;">
+					已售:
+					<font>0</font>
+					件 |
+					<span>评论:0 </span>
+					</p>
+					<p class="name"> 跳蚤</p>
+					<p class="price">
+					<strong>¥</strong>
+					<span>0.50</span>
+					/
+					<del>0.60</del>
+					</p>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="#">
+					<img height="190" width="190" src="images/9.jpg">
+					<p class="statis" style="display: none;">
+					已售:
+					<font>0</font>
+					件 |
+					<span>评论:0 </span>
+					</p>
+					<p class="name"> 跳蚤</p>
+					<p class="price">
+					<strong>¥</strong>
+					<span>0.50</span>
+					/
+					<del>0.60</del>
+					</p>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="#">
+					<img height="190" width="190" src="images/11.jpg">
+					<p class="statis" style="display: none;">
+					已售:
+					<font>0</font>
+					件 |
+					<span>评论:0 </span>
+					</p>
+					<p class="name"> 跳蚤</p>
+					<p class="price">
+					<strong>¥</strong>
+					<span>0.50</span>
+					/
+					<del>0.60</del>
+					</p>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="#">
+					<img height="190" width="190" src="images/13.jpg">
+					<p class="statis" style="display: none;">
+					已售:
+					<font>0</font>
+					件 |
+					<span>评论:0 </span>
+					</p>
+					<p class="name"> 跳蚤</p>
+					<p class="price">
+					<strong>¥</strong>
+					<span>0.50</span>
+					/
+					<del>0.60</del>
+					</p>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="#">
+					<img height="190" width="190" src="images/14.jpg">
+					<p class="statis" style="display: none;">
+					已售:
+					<font>0</font>
+					件 |
+					<span>评论:0 </span>
+					</p>
+					<p class="name"> 跳蚤</p>
+					<p class="price">
+					<strong>¥</strong>
+					<span>0.50</span>
+					/
+					<del>0.60</del>
+					</p>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="#">
+					<img height="190" width="190" src="images/16.jpg">
+					<p class="statis" style="display: none;">
+					已售:
+					<font>0</font>
+					件 |
+					<span>评论:0 </span>
+					</p>
+					<p class="name"> 跳蚤</p>
+					<p class="price">
+					<strong>¥</strong>
+					<span>0.50</span>
+					/
+					<del>0.60</del>
+					</p>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="#">
+					<img height="190" width="190" src="images/15.jpg">
+					<p class="statis" style="display: none;">
+					已售:
+					<font>0</font>
+					件 |
+					<span>评论:0 </span>
+					</p>
+					<p class="name"> 跳蚤</p>
+					<p class="price">
+					<strong>¥</strong>
+					<span>0.50</span>
+					/
+					<del>0.60</del>
+					</p>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="#">
+					<img height="190" width="190" src="images/15.jpg">
+					<p class="statis" style="display: none;">
+					已售:
+					<font>0</font>
+					件 |
+					<span>评论:0 </span>
+					</p>
+					<p class="name"> 跳蚤</p>
+					<p class="price">
+					<strong>¥</strong>
+					<span>0.50</span>
+					/
+					<del>0.60</del>
+					</p>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="#">
+					<img height="190" width="190" src="images/15.jpg">
+					<p class="statis" style="display: block;">
+					已售:
+					<font>0</font>
+					件 |
+					<span>评论:0 </span>
+					</p>
+					<p class="name"> 跳蚤</p>
+					<p class="price">
+					<strong>¥</strong>
+					<span>0.50</span>
+					/
+					<del>0.60</del>
+					</p>
+					</a>
+				</li>
+			</ul>
+			</div>
+		</div>
+		</div>
+<!--end 类产品分类1-->
+
+
+
+<!--产品分类二   start-->
+
+<div class="store_classify1">
+			<div class="hd">
+				<h2 class="bg1">
+				<a target="_blank" href="">衣服</a>
+				</h2>
+				<div class="class_box"></div>
+			</div>
+
+		<div class="bd">
+		<div class="goods_box_l">
+		<a target="_blank" href="">
+		<img height="390" width="190" src="images/9.jpg" title="school">
+		</a>
+		</div>
+		<div class="goods_box_r">
+			<ul>
+				<li>
+					<a target="_blank" href="#">
+					<img height="190" width="190" src="images/16.jpg">
+					<p class="statis" style="display: none;">
+					已售:
+					<font>0</font>
+					件 |
+					<span>评论:0 </span>
+					</p>
+					<p class="name"> 跳蚤</p>
+					<p class="price">
+					<strong>¥</strong>
+					<span>0.50</span>
+					/
+					<del>0.60</del>
+					</p>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="#">
+					<img height="190" width="190" src="images/10.jpg">
+					<p class="statis" style="display: none;">
+					已售:
+					<font>0</font>
+					件 |
+					<span>评论:0 </span>
+					</p>
+					<p class="name"> 跳蚤</p>
+					<p class="price">
+					<strong>¥</strong>
+					<span>0.50</span>
+					/
+					<del>0.60</del>
+					</p>
+					</a>
+				</li>
+					<li>
+						<a target="_blank" href="#">
+						<img height="190" width="190" src="images/9.jpg">
+						<p class="statis" style="display: none;">
+						已售:
+						<font>0</font>
+						件 |
+						<span>评论:0 </span>
+						</p>
+						<p class="name"> 跳蚤</p>
+						<p class="price">
+						<strong>¥</strong>
+						<span>0.50</span>
+						/
+						<del>0.60</del>
+						</p>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="#">
+						<img height="190" width="190" src="images/11.jpg">
+						<p class="statis" style="display: none;">
+						已售:
+						<font>0</font>
+						件 |
+						<span>评论:0 </span>
+						</p>
+						<p class="name"> 跳蚤</p>
+						<p class="price">
+						<strong>¥</strong>
+						<span>0.50</span>
+						/
+						<del>0.60</del>
+						</p>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="#">
+						<img height="190" width="190" src="images/13.jpg">
+						<p class="statis" style="display: none;">
+						已售:
+						<font>0</font>
+						件 |
+						<span>评论:0 </span>
+						</p>
+						<p class="name"> 跳蚤</p>
+						<p class="price">
+						<strong>¥</strong>
+						<span>0.50</span>
+						/
+						<del>0.60</del>
+						</p>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="#">
+						<img height="190" width="190" src="images/14.jpg">
+						<p class="statis" style="display: none;">
+						已售:
+						<font>0</font>
+						件 |
+						<span>评论:0 </span>
+						</p>
+						<p class="name"> 跳蚤</p>
+						<p class="price">
+						<strong>¥</strong>
+						<span>0.50</span>
+						/
+						<del>0.60</del>
+						</p>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="#">
+						<img height="190" width="190" src="images/16.jpg">
+						<p class="statis" style="display: none;">
+						已售:
+						<font>0</font>
+						件 |
+						<span>评论:0 </span>
+						</p>
+						<p class="name"> 跳蚤</p>
+						<p class="price">
+						<strong>¥</strong>
+						<span>0.50</span>
+						/
+						<del>0.60</del>
+						</p>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="#">
+						<img height="190" width="190" src="images/15.jpg">
+						<p class="statis" style="display: none;">
+						已售:
+						<font>0</font>
+						件 |
+						<span>评论:0 </span>
+						</p>
+						<p class="name"> 跳蚤</p>
+						<p class="price">
+						<strong>¥</strong>
+						<span>0.50</span>
+						/
+						<del>0.60</del>
+						</p>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="#">
+						<img height="190" width="190" src="images/15.jpg">
+						<p class="statis" style="display: none;">
+						已售:
+						<font>0</font>
+						件 |
+						<span>评论:0 </span>
+						</p>
+						<p class="name"> 跳蚤</p>
+						<p class="price">
+						<strong>¥</strong>
+						<span>0.50</span>
+						/
+						<del>0.60</del>
+						</p>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="#">
+						<img height="190" width="190" src="images/15.jpg">
+						<p class="statis" style="display: block;">
+						已售:
+						<font>0</font>
+						件 |
+						<span>评论:0 </span>
+						</p>
+						<p class="name"> 跳蚤</p>
+						<p class="price">
+						<strong>¥</strong>
+						<span>0.50</span>
+						/
+						<del>0.60</del>
+						</p>
+						</a>
+					</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	<!--end   产品分类二 -->
+	</div>
+	<!--end 商品列表-->
+	
+	<!--底部foot  start-->
+	<div class="univ-foot" >
+		<div class="univ-foot-cont">
+			<p>
+				<a>提供的服务</a><a>风险提示</a><a>成功案例</a><a>媒体报道</a><a>合作伙伴</a><a>加入我们</a><a>联系我们</a>
+			</p>
+			<p>客服电话：400-099-0321 (工作日9:30-18.30)</p>
+			<p>©2015 tiaozao &nbsp;&nbsp;上海ICP证14046667号-4
+				&nbsp;&nbsp;上海11010802010367号
+				&nbsp;&nbsp;中国高校电子商务平台，大学生挣零用钱、投资就上跳蚤平台！</p>
+		</div>
+	</div>
+	<!--end  底部foot -->
+</body>
+</html>

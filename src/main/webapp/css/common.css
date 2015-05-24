@@ -1,0 +1,10 @@
+/*公共css  start*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,button,input,select,textarea,a {
+	font: 12px "宋体", "Arial Narrow", HELVETICA, "宋体";
+}
+/*end  公共css*/

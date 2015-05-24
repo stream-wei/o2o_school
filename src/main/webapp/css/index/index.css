@@ -1,0 +1,263 @@
+/*学校banner start*/
+.b_banner {
+	margin: 0 auto;
+	height: 100px;
+	border-bottom: 2px solid #b61d1d;
+}
+
+.b_banner img {
+	height: 100px;
+}
+/*end学校banner*/
+/*分类 start*/
+.store_cate_slide {
+	margin: 10px auto;
+	overflow: hidden;
+	width: 100%;
+	min-width: 1200px;
+}
+
+.store_cate_slide .store_cate h3 a {
+	color: Black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.store_cate_slide .store_cate h3 a:hover {
+	color: #ff5000;
+	text-decoration: underline;
+}
+
+.store_cate {
+	float: left;
+	height: 390px;
+	overflow: hidden;
+	width: 300px;
+}
+
+.store_cate ul {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #e6e6e6;
+	height: 388px;
+	overflow: hidden;
+	position: relative;
+	margin-left: 50px;
+	width: 238px;
+}
+
+.store_cate ul li {
+	padding: 6px 15px;
+}
+
+.store_cate a:hover {
+	color: #ff5000;
+	text-decoration: underline;
+}
+
+.store_cate p a {
+	text-decoration: none;
+	color: #848484;
+	margin-right: 6px;
+}
+
+.store_cate p {
+	height: 25px;
+	line-height: 22px;
+	overflow: hidden;
+	padding-top: 6px;
+}
+
+.store_cate ul .even {
+	background: #f1f1f1;
+}
+
+/*end 分类*/
+/*大banner start*/
+.big_banner {
+	float: left;
+	height: 390px;
+	overflow: hidden;
+	position: relative;
+	width: 936px;
+}
+/*end大banner*/
+
+/*商品分类 start*/
+.store_cate_slide,.store_box {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 100%;
+	min-width: 1200px;
+	margin-top: 10px;
+}
+/*end 商品分类*/
+
+/*广告位 start*/
+.Advertising_position {
+	overflow: hidden;
+	width: 100%;
+	margin-left: 41px;
+}
+
+.Advertising_position  .Advertising_detail {
+	border-bottom: 1px solid #e6e6e6;
+	border-top: 1px solid #e6e6e6;
+	height: 240px;
+	overflow: hidden;
+	padding: 10px 0;
+	width: 100%;
+	min-width: 1200px;
+}
+
+.Advertising_position  .Advertising_detail  li {
+	border-right: 1px solid #e6e6e6;
+	display: inline;
+	float: left;
+	height: 240px;
+	overflow: hidden;
+	padding: 0 10px;
+	width: 180px;
+}
+
+/*end 广告位*/
+/*产品分类 start*/
+.store_classify1 {
+	margin-top: 20px;
+	overflow: hidden;
+	width: 100%;
+	min-width: 1200px;
+	margin-left: 41px;
+}
+
+.store_classify1 .hd {
+	overflow: hidden;
+	width: 100%;
+	min-width: 1200px;
+}
+
+.store_classify1 .hd h2.bg1 {
+	background: #bf0067;
+}
+
+.store_classify1 .hd h2 {
+	background-color: #09796d;
+	color: white;
+	float: left;
+	font-family: Microsoft YaHei;
+	font-size: 16px;
+	font-weight: normal;
+	height: 35px;
+	line-height: 35px;
+	overflow: hidden;
+	text-align: center;
+	width: 110px;
+}
+
+.store_classify1 .hd a {
+	color: white;
+}
+
+.store_classify1 .hd .class_box {
+	border-bottom: 3px solid #5a5a5a;
+	margin-top: 32px;
+}
+
+.store_classify1 .bd {
+	border-bottom: 1px solid #e6e6e6;
+	height: 390px;
+	overflow: hidden;
+	padding: 10px 0;
+	width: 100%;
+	min-width: 1200px;
+}
+
+.store_classify1 .bd .goods_box_l {
+	float: left;
+	height: 390px;
+	overflow: hidden;
+	padding-right: 10px;
+	width: 190px;
+}
+
+.store_classify1 .bd .goods_box_r {
+	float: left;
+	height: 390px;
+	overflow: hidden;
+	position: relative;
+	width: 990px;
+}
+
+.store_classify1 .bd .goods_box_r li {
+	display: inline;
+	float: left;
+	height: 190px;
+	margin: 0 0 5px 8px;
+	overflow: hidden;
+	position: relative;
+	width: 190px;
+}
+
+.store_classify1 .bd .goods_box_r li a {
+	display: block;
+	height: 190px;
+	overflow: hidden;
+	width: 190px;
+}
+
+.store_classify1 .goods_box_r .statis {
+	bottom: 44px;
+	display: none;
+}
+
+.store_classify1 .goods_box_r .statis font {
+	color: #c4918c;
+}
+
+.store_classify1 .goods_box_r .statis span {
+	color: #568396;
+}
+
+.store_classify1 .goods_box_r .name {
+	bottom: 22px;
+}
+
+.store_classify1 .goods_box_r .name,.class_goods_box .goods_box_r .price,.class_goods_box .goods_box_r .statis
+	{
+	background-color: white;
+	color: #666;
+	height: 22px;
+	left: 0;
+	line-height: 22px;
+	opacity: 0.9;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	width: 191px;
+}
+
+.store_classify1 .goods_box_r .price {
+	bottom: 0;
+}
+
+.store_classify1 .goods_box_r .name,.class_goods_box .goods_box_r .price,.class_goods_box .goods_box_r .statis
+	{
+	background-color: white;
+	color: #666;
+	height: 22px;
+	left: 0;
+	line-height: 22px;
+	opacity: 0.9;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	width: 191px;
+}
+
+.store_classify1 .goods_box_r .price strong,.class_goods_box .goods_box_r .price span
+	{
+	color: #c00;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*产品分类 end*/
