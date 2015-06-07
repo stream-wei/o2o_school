@@ -1,0 +1,563 @@
+ol,ul {
+	list-style: none
+}
+
+img {
+	border: 0;
+	vertical-align: middle
+}
+
+em,i,u {
+	font-style: normal
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+.al {
+	text-align: left
+}
+
+.ac {
+	text-align: center
+}
+
+.ar {
+	text-align: right
+}
+
+.hide {
+	display: none
+}
+
+.dorpdown {
+	position: relative
+}
+
+.dorpdown-layer {
+	display: none;
+	position: absolute
+}
+
+.dorpdown:hover .dorpdown-layer,.hover .dorpdown-layer {
+	display: block
+}
+
+#shortcut-2014{
+	width : 100%;
+	height:30px;
+	line-height: 30px;
+	background: #f1f1f1;
+}
+
+.cw-icon {
+	position: relative;
+	cursor: default;
+	zoom: 1
+}
+
+.cw-icon .i,.cw-icon i {
+	display: block;
+	position: absolute;
+	overflow: hidden
+}
+
+.w {
+	width: 1210px;
+	margin: 0 auto
+}
+
+body {
+	font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+	color: #666;
+	background: #fff
+}
+
+a {
+	color: #666;
+	text-decoration: none
+}
+
+a:hover {
+	color: #C81623
+}
+
+.m,.mb,.mc,.mt,.p-detail,.p-img,.p-market,.p-name,.p-price,.sm,.smb,.smc,.smt
+	{
+	overflow: hidden
+}
+
+/* jdf-1.0.0/ shortcut.css Date:2015-05-21 11:08:20 */
+#logo-2014 {
+	position: relative;
+	z-index: 12;
+	float: left;
+	width: 362px;
+	height: 60px;
+	padding: 20px 0
+}
+
+#logo-2014 .logo {
+	display: block;
+	width: 270px;
+	height: 60px;
+	background: url(http://misc.360buyimg.com/lib/img/e/logo-201305.png)
+		no-repeat 0 0;
+	text-indent: -20000px
+}
+
+#logo-2014 .extra {
+	position: absolute;
+	top: 15px;
+	left: 168px;
+	width: 180px;
+	height: 70px;
+	padding-left: 10px;
+	background: #fff
+}
+
+#search-2014 {
+	position: relative;
+	z-index: 11;
+	float: left;
+	width: 462px;
+	margin-top: 25px
+}
+
+#search-2014 .form {
+	width: 462px;
+	height: 36px
+}
+
+#search-2014 .text {
+	float: left;
+	width: 370px;
+	height: 24px;
+	line-height: 24px;
+	color: #666;
+	padding: 4px;
+	margin-bottom: 4px;
+	border-width: 2px 0 2px 2px;
+	border-color: #B61D1D;
+	border-style: solid;
+	outline: 0;
+	font-size: 14px;
+	font-family: "microsoft yahei"
+}
+
+#search-2014 .button {
+	float: left;
+	width: 82px;
+	height: 36px;
+	background: #B61D1D;
+	border: none;
+	line-height: 1;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+	cursor: pointer
+}
+
+#search-2014 .cw-icon i {
+	top: 0;
+	left: 0;
+	width: 82px;
+	height: 36px
+}
+
+#shelper {
+	overflow: hidden;
+	position: absolute;
+	top: 36px;
+	left: 0;
+	width: 379px;
+	border: 1px solid #CCC;
+	background: #fff
+}
+
+#shelper li {
+	overflow: hidden;
+	padding: 1px 6px;
+	line-height: 22px;
+	cursor: pointer
+}
+
+#shelper .search-item {
+	float: left;
+	width: 190px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden
+}
+
+#shelper li.fore1 .search-item {
+	width: 170px
+}
+
+#shelper .search-count {
+	overflow: hidden;
+	color: #aaa;
+	text-align: right;
+	*zoom: 1
+}
+
+#shelper .close {
+	border-top: 1px solid #efefef;
+	text-align: right
+}
+
+#shelper .item3 {
+	cursor: default
+}
+
+#shelper .item3 a {
+	float: left;
+	margin-right: 10px;
+	white-space: nowrap
+}
+
+#shelper li.fore1 {
+	width: 100%;
+	padding: 0;
+	border-bottom: 1px solid #ddd
+}
+
+#shelper li.fore1 .item1 {
+	height: 22px;
+	overflow: hidden;
+	zoom: 1
+}
+
+#shelper li.fore1 div.fore1 {
+	padding: 0 6px
+}
+
+#shelper li.fore1 strong {
+	color: #C00
+}
+
+#shelper li.fore1 .fore1 strong {
+	color: #333
+}
+
+#shelper li.fore1 .item1,#shelper li.fore1 .item2 {
+	float: none;
+	width: auto;
+	padding: 1px 6px 1px 20px
+}
+
+#shelper li.fore1 .item3 {
+	float: none;
+	width: auto;
+	color: #9C9A9C
+}
+
+#shelper li.fore1 span {
+	float: left
+}
+
+#shelper li:hover {
+	background: #f5f5f5 !important
+}
+
+#shelper li.close:hover,#shelper li.fore1:hover {
+	background: 0 0
+}
+
+#shelper li.fore1 div:hover {
+	background: #f5f5f5 !important
+}
+
+#appdownloadTop {
+	display: none
+}
+/* jdf-1.0.0/ myjd.css Date:2015-04-14 17:00:13 */
+#settleup-2014 {
+	float: right;
+	z-index: 11;
+	height: 36px;
+	margin-top: 25px;
+	margin-right:86px;
+}
+
+#settleup-2014 .cw-icon {
+	width: 75px;
+	height: 34px;
+	border: 1px solid #DFDFDF;
+	padding: 0 28px 0 36px;
+	background: #F9F9F9;
+	text-align: center;
+	line-height: 34px
+}
+
+#settleup-2014 .ci-left {
+	top: 9px;
+	left: 18px;
+	width: 18px;
+	height: 16px;
+	background:
+		url(http://misc.360buyimg.com/jdf/1.0.0/unit/globalImages/1.0.0/jd2015img.png)
+		0 -58px no-repeat;
+	_background:
+		url(http://misc.360buyimg.com/jdf/1.0.0/unit/globalImages/1.0.0/jd2015img.png)
+		0 -91px no-repeat
+}
+
+#settleup-2014 .ci-right {
+	top: 11px;
+	right: 10px;
+	width: 7px;
+	height: 13px;
+	overflow: hidden;
+	font: 400 13px/13px simsun;
+	color: #999
+}
+
+#settleup-2014 .ci-count {
+	position: absolute;
+	top: -4px;
+	left: 104px;
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+	padding: 1px 2px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #fff;
+	background-color: #c81623;
+	border-radius: 7px 7px 7px 0;
+	min-width: 12px;
+	text-align: center
+}
+
+#settleup-2014.hover .cw-icon,#settleup-2014.hover .dorpdown-layer,#settleup-2014:hover .cw-icon,#settleup-2014:hover .dorpdown-layer
+	{
+	background: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .2)
+}
+
+#settleup-2014.hover .dorpdown-layer,#settleup-2014:hover .dorpdown-layer
+	{
+	display: block;
+	right: 0;
+	_right: -1px;
+	width: 308px
+}
+
+#settleup-2014.hover .spacer,#settleup-2014:hover .spacer {
+	position: absolute;
+	right: 0;
+	top: -7px;
+	width: 139px;
+	height: 12px;
+	background: #fff
+}
+
+#settleup-2014 .prompt {
+	padding: 10px 15px
+}
+
+#settleup-2014 .nogoods {
+	padding-left: 30px;
+	height: 49px;
+	line-height: 49px;
+	overflow: hidden;
+	color: #999
+}
+
+#settleup-2014 .nogoods b {
+	float: left;
+	width: 56px;
+	height: 49px;
+	background-image:
+		url(http://misc.360buyimg.com/jdf/1.0.0/unit/shoppingcart/2.0.0/i/settleup-nogoods.png)
+}
+
+#settleup-content {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	background: #fff
+}
+
+#settleup-content .loading {
+	display: block;
+	height: 50px;
+	background:
+		url(http://misc.360buyimg.com/jdf/1.0.0/unit/globalImages/1.0.0/loading.gif)
+		no-repeat center center
+}
+
+#settleup-content .smt {
+	height: 25px;
+	padding: 6px 8px;
+	line-height: 25px
+}
+
+#settleup-content .smc {
+	background: #fff;
+	height: auto !important;
+	height: 344px;
+	max-height: 344px;
+	overflow-y: auto
+}
+
+#settleup-content .smb {
+	padding: 8px;
+	background: #F5F5F5;
+	_height: 45px;
+	_padding-top: 15px;
+	_padding-bottom: 0
+}
+
+#settleup-content .smb .p-total {
+	float: left;
+	line-height: 29px
+}
+
+#settleup-content .smb span {
+	color: #c81623
+}
+
+#settleup-content .smb a {
+	float: right;
+	height: 29px;
+	padding: 0 10px;
+	background: #E4393C;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	line-height: 29px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px
+}
+
+#settleup-content ul {
+	margin-top: -1px
+}
+
+#settleup-content li {
+	padding: 8px 10px;
+	border-top: 1px dotted #ccc;
+	overflow: hidden;
+	line-height: 17px;
+	vertical-align: bottom;
+	*zoom: 1
+}
+
+#settleup-content li.hover,#settleup-content li:hover {
+	background: #F5F5F5
+}
+
+#settleup-content li .gift {
+	height: 17px;
+	width: 282px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+#settleup-content li .gift a {
+	color: #999
+}
+
+#settleup-content li .gift-jq {
+	color: #999;
+	clear: both
+}
+
+#settleup-content .p-img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #ddd;
+	padding: 0;
+	margin-right: 10px;
+	font-size: 0
+}
+
+#settleup-content .p-name {
+	float: left;
+	width: 120px;
+	height: 52px
+}
+
+#settleup-content .p-detail {
+	float: right;
+	text-align: right
+}
+
+#settleup-content .p-price {
+	font-weight: 700
+}
+
+#settleup-iframe {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	background: #fff
+}
+
+#settleup-2014 .dt-mz {
+	color: #999;
+	width: 310px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+#settleup-2014 .dt-mz a {
+	color: #999
+}
+
+#settleup-2014 .dt-mz:hover {
+	background: #fff
+}
+
+#mcart-suit .dt,#mcart-suit .dt:hover {
+	background: #d3ebff
+}
+
+#mcart-mj .dt,#mcart-mj .dt:hover,#mcart-mz .dt,#mcart-mz .dt:hover {
+	background: #bffab1
+}
+
+#settleup-content .fr .hl-green,#settleup-content .fr .hl-orange {
+	margin-right: 0
+}
+
+#settleup-content .hl-green,#settleup-content .hl-orange {
+	margin-right: 5px;
+	color: #fff;
+	display: inline-block;
+	*zoom: 1;
+	padding: 0 2px;
+	font: 12px/16px simsun
+}
+
+#settleup-content .hl-green {
+	background: #3b0
+}
+
+#settleup-content .hl-orange {
+	background: #f60
+}
+
+.root61 #settleup-2014 {
+	margin-right: 65px
+}
+
+#settleup-2014.hover .ci-left {
+	_background:
+		url(http://misc.360buyimg.com/jdf/1.0.0/unit/globalImages/1.0.0/jd2015img.png)
+		0 -116px no-repeat
+}

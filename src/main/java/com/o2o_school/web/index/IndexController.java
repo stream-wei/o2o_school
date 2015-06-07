@@ -2,6 +2,7 @@ package com.o2o_school.web.index;
 
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,11 +17,11 @@ public class IndexController {
 	
 	@Autowired
 	private ICommodityService commodityService;
+	Logger logger = Logger.getLogger(getClass());
 	
 	@RequestMapping("index.do")
 	public String index(Model model){
 		List<CategoryParent> categoryParents = commodityService.queryCommodityList();
-		System.out.println("========================="+categoryParents.get(0).getComoditys().get(0).getImgs().get(0));
 		model.addAttribute("categoryParents", categoryParents);
 		return "index/index";
 	}

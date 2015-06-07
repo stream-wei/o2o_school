@@ -2,6 +2,8 @@ package com.o2o_school.entity;
 
 import java.util.List;
 
+import net.sf.json.JSONObject;
+
 public class CategoryParent {
     private Integer id;
     private String name;
@@ -87,5 +89,13 @@ public class CategoryParent {
 	public void setComoditys(List<Commodity> comoditys) {
 		this.comoditys = comoditys;
 	}
+
+	@Override
+	public String toString() {
+		String str = JSONObject.fromObject(this).toString();
+		return str;
+	}
+	
+	
     
 }
